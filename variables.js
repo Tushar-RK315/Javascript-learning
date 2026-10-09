@@ -24,6 +24,14 @@ var accountPassword = "T@#7601";
 
 // accountId = 88; not allowed because accountId is a constant variable and cannot be reassigned.
 
+// JavaScript Variable Rules:
+// 1. Variable names can contain letters, digits, _, and $.
+// 2. A variable name cannot start with a digit.
+// 3. Variable names cannot contain spaces.
+// 4. JavaScript keywords like let and var cannot be used as variable names.
+// 5. Variable names are case-sensitive: age and Age are different.
+// 6. Use let or const to declare variables.
+
 console.log(accountId);
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
