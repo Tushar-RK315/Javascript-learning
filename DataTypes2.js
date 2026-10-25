@@ -24,5 +24,19 @@
 // console.log(typeof function() {}); // "function"
 // console.log(typeof { key: "value" }); // "object"
 
-console.log(typeof []); // "object"
-console.log(typeof new Date()); // "object"
+// console.log(typeof []); // "object"
+// console.log(typeof new Date()); // "object"
+
+//TODO:- start second part of the next chapter
+// JavaScript implementations commonly use stack and heap memory, but the language
+// specification does not require a particular memory layout.
+
+// 1. Stack memory is commonly used for function calls and execution contexts.
+// 2. Heap memory is commonly used for objects, including arrays and functions.
+// Variables holding objects contain references to those objects; assigning one
+// variable to another copies the reference, not the object.
+
+let myName = "Tushar Roy Chaudhury";
+let anothername = myName;
+
+console.log(anothername);
